@@ -18,6 +18,8 @@ spec:
             enabled: true
             minReplicas: 1
             maxReplicas: 1
+          service:
+            type: clusterIP
   ignoreDifferences:
   - group: autoscaling
     kind: HorizontalPodAutoscaler
