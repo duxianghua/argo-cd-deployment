@@ -8,6 +8,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd
-    repoURL: https://github.com/argoproj/argoproj-deployments
+    path: argocd-kind
+    repoURL: https://github.com/duxianghua/argo-cd-deployment
     targetRevision: HEAD

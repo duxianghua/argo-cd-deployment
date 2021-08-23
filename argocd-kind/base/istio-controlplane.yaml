@@ -5,7 +5,7 @@ metadata:
 spec:
   source:
     path: istio-controlplane
-    repoURL: https://github.com/argoproj/argoproj-deployments
+    repoURL: https://github.com/duxianghua/argo-cd-deployment
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc

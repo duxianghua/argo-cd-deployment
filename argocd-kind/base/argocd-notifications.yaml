@@ -11,5 +11,5 @@ spec:
   project: default
   source:
     path: argocd-notifications
-    repoURL: https://github.com/argoproj/argoproj-deployments
+    repoURL: https://github.com/duxianghua/argo-cd-deployment
     targetRevision: HEAD
